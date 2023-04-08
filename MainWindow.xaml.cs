@@ -34,6 +34,7 @@ namespace WpfMontoConIva
             txtNombre.Clear(); 
             txtApellido.Clear();
             txtSubtotal.Clear();
+            lblResultado.Content = "";
         }
 
         private void btnSalir_Click(object sender, RoutedEventArgs e)
@@ -49,7 +50,7 @@ namespace WpfMontoConIva
             string strSubtotal = this.txtSubtotal.Text;
             double.TryParse(strSubtotal, out SubTotal);
             TotalIva = SubTotal * 1.19;
-            this.lblResultado.Content = Nombre + Apellido + " el monto a pagar es de $ " + TotalIva;
+            this.lblResultado.Content = Nombre +" "+ Apellido + " el monto a pagar es de $ " + TotalIva;
         }
 
         private void txtNombre_TextChanged(object sender, TextChangedEventArgs e)
@@ -57,7 +58,7 @@ namespace WpfMontoConIva
 
         }
 
-        private void txtApellido_TextChanged(object sender, TextChangedEventArgs e)
+        private void txtApellido_TextChanged(object sender, TextChangedEventArgs e)<<
         {
 
         }

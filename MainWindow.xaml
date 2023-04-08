@@ -13,7 +13,7 @@
         <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Margin="114,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="224" TextChanged="txtApellido_TextChanged"/>
         <Label Content="Subtotal" HorizontalAlignment="Left" Margin="48,130,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtSubtotal" HorizontalAlignment="Left" Margin="114,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtSubtotal_TextChanged"/>
-        <Label Content="Monto con IVA" HorizontalAlignment="Left" Margin="22,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="Resultado" HorizontalAlignment="Left" Margin="22,168,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnCalcular" Content="Calcular" HorizontalAlignment="Left" Margin="48,244,0,0" VerticalAlignment="Top" Click="btnCalcular_Click"/>
         <Button x:Name="btnLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="116,244,0,0" VerticalAlignment="Top" Click="btnLimpiar_Click"/>
         <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="174,244,0,0" VerticalAlignment="Top" Click="btnSalir_Click"/>
